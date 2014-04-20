@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Slym
+tagline:          'EAT .LEARN .  LIFT . SLEEP'
+#description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://slym-log.github.io
+
+author:
+  name:           'Slym'
+  url:            http://slym-log.github.io
+
+paginate:         3
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           http://slym-log.github.ion
