@@ -12,9 +12,9 @@ markdown: kramdown
 title : Slym’s log
 tagline: 
 author :
-  name : Name Lastname
+  name : Slym
   email : blah@email.test
-  github : username
+  github : slym-log
   twitter : username
   feedburner : feedname
 
