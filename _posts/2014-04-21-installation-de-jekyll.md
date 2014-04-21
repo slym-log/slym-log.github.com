@@ -26,7 +26,7 @@ Quand l’installation est finie, on peut générer son site. Pour ce faire, tou
 
 	$ cd /chemin/de-mon/répertoire	
 	$ jekyll new nom-de-votre-site
-Voilà, votre site est prêt !
+Voilà, votre site est prêt !	
 Pour l’utiliser, aller dans la répertoire du site.
 
 	$ jekyll -w serve
