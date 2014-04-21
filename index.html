@@ -21,18 +21,18 @@ title: Home
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="/page{{paginator.next_page}}">Billets précédents</a>
+    <a class="pagination-item older" href="/page{{paginator.next_page}}">⇠ Billets précédents</a>
   {% else %}
-    <span class="pagination-item older">Billets précédents</span>
+    <span class="pagination-item older">⇠ Billets précédents</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="/">Billets récents</a>
+      <a class="pagination-item newer" href="/">Billets récents ⇢</a>
     {% else %}
-      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Billets récents</a>
+      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Billets récents ⇢</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">Billets récents</span>
+    <span class="pagination-item newer">Billets récents ⇢</span>
   {% endif %}
 </div>
 
