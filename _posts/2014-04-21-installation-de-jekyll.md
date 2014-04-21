@@ -30,4 +30,6 @@ Voilà, votre site est prêt !
 Pour l’utiliser, aller dans le répertoire du site.
 
 	$ jekyll -w serve
-Cela permet de générer le site à la volée et donc de voir les modifications que vous faites sans devoir relancer constamment Jekyll. 
+Cela permet de générer le site à la volée et donc de voir les modifications (thème, billets) que vous faites sans devoir relancer constamment Jekyll. 
+
+Prochaine étape, mettre le site en ligne sur Github… Mais on verra ça plus tard.
