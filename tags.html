@@ -40,8 +40,8 @@ group: navigation
             {% if group == null or group == node.group %}
               <li style="line-height: 35px;"><a href="{{ site.BASE_PATH }}{{node.url}}">{{node.title}}</a> <span class="text-muted">- 
               <--{{ node.date | date: "%d %B %Y" }}-->
-       {{% node.date | date: "%-m" %}}
-{{ node.date | date: "%-d" }}
+       {{% page.date | date: "%-m" %}}
+{{ page.date | date: "%-d" }}
 {% case m %}
   {% when '1' %}Janvier
   {% when '2' %}Février
@@ -56,7 +56,7 @@ group: navigation
   {% when '11' %}Novembre
   {% when '12' %}Décembre
 {% endcase %}
-{{ node.date | date: "%Y" }}
+{{ page.date | date: "%Y" }}
      </span></li>
             {% endif %}
           {% endif %}
