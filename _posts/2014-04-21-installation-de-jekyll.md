@@ -3,7 +3,7 @@ layout: post
 title : Installation de Jekyll sur Mac OS
 ---
 
-Pour installer Jekyll sur Mac OS, rien de plus simple.
+Pour installer Jekyll sur Mac OS, qui au passage nécessite *Xcode Command-Line Tools*, rien de plus simple.
 
 	$ sudo gem install jekyll		
 Par contre, il semble avoir des soucis avec OS X 10.9, une erreur de ce type peut apparaitre :	
