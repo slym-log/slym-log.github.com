@@ -6,7 +6,7 @@ title: Installation de Jekyll sur Mac OS
 Pour installer Jekyll sur Mac OS, rien de plus simple.
 
 	$ sudo gem install jekyll		
-Par contre, selon la version de Xcode, dans mon cas sur Maverick 10.9, il est possible que vous ayez une erreur de ce type :	
+Par contre, il semble avoir des soucis avec OS X 10.9, une erreur de ce type peut apparaitre :	
 	
 	clang: error: unknown argument: ‘-multiply_definedsuppress’ [-Wunused-		command-line-argument-hard-error-in-future]
 	
@@ -23,5 +23,7 @@ La solution la plus simple, copier/coller ses commandes (une à la fois) dans le
 Devrez régler le problème.
 
 Quand l’installation est finie, on peut générer son site. Pour ce faire, toujours en utilisant le terminal, ce rendre dans la répertoire de votre choix pour executer cette commande.
+
+	$ cd /chemin/de-mon/répertoire	
 	$ jekyll new nom-de-votre-site
 Voilà, votre site est prêt !
