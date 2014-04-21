@@ -525,3 +525,12 @@ a.pagination-item:hover {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+/* ########### PERSO LUDOVIC ############# */
+.footer {
+  font-size: 380%;
+  color: #AD1102/*666*/;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
+}
