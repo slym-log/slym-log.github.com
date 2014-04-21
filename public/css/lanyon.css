@@ -528,8 +528,8 @@ a.pagination-item:hover {
 
 /* ########### PERSO LUDOVIC ############# */
 .footer {
-  font-size: 380%;
-  color: #AD1102/*666*/;
+  font-size: 70%;
+  color: #333/*666*/;
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
