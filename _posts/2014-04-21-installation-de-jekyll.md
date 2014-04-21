@@ -19,5 +19,6 @@ La solution la plus simple, copier/coller ses commandes (une à la fois) dans le
 `$ export ARCHFLAGS=”-Wno-error=unused-command-line-argument-hard-error-in-future`
 
 `$ export CFLAGS=-Wunused-command-line-argument-hard-error-in-future`
-`export CPPFLAGS=-Qunused-arguments`
+
+`$ export CPPFLAGS=-Qunused-arguments`
 Devrez régler le problème.
