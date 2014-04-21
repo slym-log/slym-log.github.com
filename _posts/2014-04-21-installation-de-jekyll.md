@@ -7,5 +7,5 @@ tag:
 - informatique
 ---
 
-Pour installer Jekyll sur Mac OS, rien de plus simple.
+Pour installer Jekyll sur Mac OS, rien de plus simple.		
 	$ sudo gem install jekyll
