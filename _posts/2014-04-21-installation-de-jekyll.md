@@ -16,9 +16,7 @@ Par contre, selon la version de Xcode, dans mon cas sur Maverick 10.9, il est po
 	make failed, exit code 2		
 La solution la plus simple, copier/coller ses commandes (une à la fois) dans le terminal.
 
-`$ export ARCHFLAGS=”-Wno-error=unused-command-line-argument-hard-error-in-future`
-
-`$ export CFLAGS=-Wunused-command-line-argument-hard-error-in-future`
-
-`$ export CPPFLAGS=-Qunused-arguments`
+	$ export ARCHFLAGS=”-Wno-error=unused-command-line-argument-hard-error-in-future
+	$ export CFLAGS=-Wunused-command-line-argument-hard-error-in-future
+	$ export CPPFLAGS=-Qunused-arguments
 Devrez régler le problème.
