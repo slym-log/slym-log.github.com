@@ -148,6 +148,7 @@ abbr[title] {
 code,
 pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
+  margin-bottom: 1rem;
 }
 code {
   padding: .25em .5em;
