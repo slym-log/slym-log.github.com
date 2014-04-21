@@ -21,3 +21,7 @@ La solution la plus simple, copier/coller ses commandes (une à la fois) dans le
 	$ export CFLAGS=-Wunused-command-line-argument-hard-error-in-future
 	$ export CPPFLAGS=-Qunused-arguments
 Devrez régler le problème.
+
+Quand l’installation est finie, on peut générer son site. Pour ce faire, toujours en utilisant le terminal, ce rendre dans la répertoire de votre choix pour executer cette commande.
+	$ jekyll new nom-de-votre-site
+Voilà, votre site est prêt !
