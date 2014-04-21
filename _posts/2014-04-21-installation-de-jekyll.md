@@ -5,9 +5,7 @@ title: Installation de Jekyll sur Mac OS
 
 Pour installer Jekyll sur Mac OS, rien de plus simple.		
 `$ sudo gem install jekyll`	
-
 Vous entrez votre mot de passe et vous valider. Par contre, selon la version de Xcode, il est possible que vous ayez une erreur de ce type :
-
 	clang: error: unknown argument: ‘-multiply_definedsuppress’ [-Wunused-		command-line-argument-hard-error-in-future]
 	
 	clang: note: this will be a hard error (cannot be downgraded to a warning) 	in the future
