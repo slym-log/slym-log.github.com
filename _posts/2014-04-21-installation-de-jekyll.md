@@ -22,8 +22,12 @@ La solution la plus simple, copier/coller ses commandes (une à la fois) dans le
 	$ export CPPFLAGS=-Qunused-arguments
 Devrez régler le problème.
 
-Quand l’installation est finie, on peut générer son site. Pour ce faire, toujours en utilisant le terminal, ce rendre dans la répertoire de votre choix pour executer cette commande.
+Quand l’installation est finie, on peut générer son site. Pour ce faire, toujours en utilisant le terminal, ce rendre dans la répertoire de votre choix puis executer cette commande.
 
 	$ cd /chemin/de-mon/répertoire	
 	$ jekyll new nom-de-votre-site
 Voilà, votre site est prêt !
+Pour l’utiliser, aller dans la répertoire du site.
+
+	$ jekyll -w serve
+Celà permet de générer le site à la volée et donc de voir les modfications que vous faites sans devoir relancer constament Jekyll. 
