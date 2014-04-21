@@ -532,6 +532,6 @@ a.pagination-item:hover {
   color: #666/*666*/;
   border-top: 1px dotted #eee;
   margin-top: 2em;
-  margin-botto: 1em;
+  margin-bottom: 1em;
   overflow: hidden;
 }
