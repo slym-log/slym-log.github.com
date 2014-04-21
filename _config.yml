@@ -9,16 +9,16 @@ permalink:        pretty
 title:            Slym
 tagline:          '| Personnal log'
 #description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://slym-log.github.io
+url:              http://0.0.0.0:4000
 
 author:
   name:           'Slym'
-  url:            http://slym-log.github.io
+  #url:            https://twitter.com/mdo
 
-paginate:         3
+paginate:         5
 
 # Custom vars
 version:          1.0.0
 
 github:
-  repo:           http://slym-log.github.ion
+  repo:           https://github.com/poole/lanyon
