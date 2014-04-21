@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Installation de Jekyll
-tags:
+tag:
 - ruby
 - jekyll
 - informatique
